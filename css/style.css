@@ -1,0 +1,160 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+/* font family :'Dancing Script';  */
+
+#wrap {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  /* background-color: #f5f5dc; */
+}
+
+header {
+  /* position: relative; */
+  width: 100%;
+  height: 1000px;
+  background: url(../images/main.png) no-repeat center;
+  background-size: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  padding-top: 15px;
+  padding-left: 40px;
+}
+.logo a {
+  font-family: "Dancing Script";
+  font-size: 45px;
+  color: #3f2b0a;
+}
+nav {
+  /* position: absolute; */
+}
+.gnb {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-top: 30px;
+  padding-right: 60px;
+}
+.gnb li {
+}
+.gnb li a {
+  color: #3f2b0a;
+}
+.gnb li:hover a {
+  color: #fff;
+}
+.bgTxt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+.bgTxt p {
+  letter-spacing: 7px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+.bgTxt h1 {
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  margin: 20px 0 40px;
+}
+.bgTxt button {
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+.bgTxt button:hover {
+  background-color: #fff;
+  color: #333;
+  transition: 0.5s;
+}
+
+#section1 {
+  width: 100%;
+  height: 600px;
+  background-color: rgba(245, 245, 220, 0.6);
+  text-align: center;
+}
+#section1 h5 {
+  letter-spacing: 10px;
+  padding-top: 190px;
+  font-size: 16px;
+  color: #333;
+  font-weight: 400;
+}
+#section1 h2 {
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  line-height: 2;
+  margin: 20px 0 50px;
+  font-family: "Kaisei Tokumin", serif;
+  font-weight: lighter;
+  color: #333;
+}
+#section1 p {
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+.line {
+  border-left: 1px solid #888;
+  height: 80px;
+  position: absolute;
+  left: 50%;
+  margin-top: 60px;
+}
+
+#section2 {
+  width: 100%;
+  height: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  background-color: rgba(245, 245, 220, 0.6);
+}
+
+.left img {
+  width: 720px;
+  height: 720px;
+}
+
+.right img {
+  width: 720px;
+}
+.right h3 {
+  padding-top: 30px;
+  letter-spacing: 5px;
+  font-weight: normal;
+  color: #555;
+}
+.right h4 {
+  padding-top: 20px;
+  letter-spacing: 5px;
+  color: #444;
+  font-size: 18px;
+}
+.right p {
+  padding-top: 15px;
+  line-height: 2;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+.btmLogo {
+  font-family: "Dancing Script";
+}
