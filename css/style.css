@@ -156,6 +156,7 @@ nav {
   letter-spacing: 5px;
   color: #444;
   font-size: 18px;
+  text-align: left;
 }
 .right p {
   line-height: 2;
@@ -171,67 +172,24 @@ nav {
 }
 
 .slide {
-  float: left;
+  width: 1480px;
+  height: 100%;
+  margin: auto;
 }
 .slide li {
+  width: 100%;
+  float: left;
 }
 .slide li img {
   width: 100%;
-  height: 700px;
-}
-
-#section5 {
-  width: 100%;
   height: 600px;
-  background-color: rgba(245, 245, 220, 0.6);
-}
-#section5 h3 {
-  font-size: 18px;
-  font-weight: normal;
-  letter-spacing: 5px;
-  padding-top: 60px;
-  text-align: center;
-  color: #333;
-}
-#section5 h2 {
-  font-size: 22px;
-  font-weight: normal;
-  letter-spacing: 7px;
-  padding: 10px 0 50px;
-  text-align: center;
-  color: #333;
-}
-
-.insta {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  justify-content: center;
-}
-
-.insta {
-}
-.insta li {
-  width: 355px;
-  height: 335px;
-  overflow: hidden;
-}
-.insta li img {
-  width: 355px;
-  height: 355px;
-}
-.insta li img:hover {
-  opacity: 0.7;
-  transform: scale(1.1);
-  transition: 0.3s;
+  margin: 50px 0;
 }
 
 #section4 {
   width: 100%;
   height: 300px;
-  background-color: rgba(212, 212, 91, 0.6);
+  background-color: rgba(245, 245, 220, 0.6);
 }
 .contents {
   width: 1480px;
@@ -240,6 +198,7 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 50px;
+  margin: auto;
 }
 .contents li {
   width: 460px;
@@ -273,6 +232,71 @@ h4 {
 .contents li button:hover {
   opacity: 0.6;
 }
+
+#section5 {
+  width: 100%;
+  height: 600px;
+  background-color: rgba(245, 245, 220, 0.6);
+}
+#section5 h3 {
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 5px;
+  padding-top: 60px;
+  text-align: center;
+  color: #333;
+}
+#section5 h2 {
+  font-size: 22px;
+  font-weight: normal;
+  letter-spacing: 7px;
+  padding: 10px 0 50px;
+  text-align: center;
+  color: #333;
+}
+
+.insta {
+  width: 1480px;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  margin: auto;
+}
+
+.insta li {
+  width: 355px;
+  height: 335px;
+  overflow: hidden;
+}
+.insta li img {
+  width: 355px;
+  height: 355px;
+}
+.insta li img:hover {
+  /* opacity: 0.7; */
+  filter: grayscale(0.7);
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+footer {
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  background-color: rgba(245, 245, 220, 0.6);
+}
 .btmLogo {
   font-family: "Dancing Script";
+  font-size: 45px;
+  color: #3f2b0a;
+  padding-bottom: 20px;
+}
+footer p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+.copy {
+  padding-top: 20px;
 }
