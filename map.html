@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pilates, Orda</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/map.css" />
+  </head>
+  <body>
+    <div id="wrap">
+      <header>
+        <h1 class="logo">
+          <a href="index.html">Pilates, Orda</a>
+        </h1>
+        <nav>
+          <ul class="gnb">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="introduce.html">시설소개</a></li>
+            <li><a href="map.html">오시는길</a></li>
+          </ul>
+        </nav>
+        <div class="bgTxt">
+          <h4>필라테스 오르다, 아시아드점</h4>
+          <h1>MAP</h1>
+          <h1>&</h1>
+          <h1>DIRECTIONS</h1>
+        </div>
+      </header>
+
+      <div id="content">
+        <!-- * 카카오맵 - 지도퍼가기 -->
+        <!-- 1. 지도 노드 -->
+        <div
+          id="daumRoughmapContainer1631529586789"
+          class="root_daum_roughmap root_daum_roughmap_landing"
+        ></div>
+
+        <!--
+2. 설치 스크립트
+* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+-->
+        <script
+          charset="UTF-8"
+          class="daum_roughmap_loader_script"
+          src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"
+        ></script>
+
+        <!-- 3. 실행 스크립트 -->
+        <script charset="UTF-8">
+          new daum.roughmap.Lander({
+            timestamp: "1631529586789",
+            key: "27cr4",
+            mapWidth: "1200",
+            mapHeight: "600",
+          }).render();
+        </script>
+      </div>
+<!-- footer -->
+<footer>
+  <h1 class="btmLogo">Pilates, Orda</h1>
+  <p>상호 : 필라테스, 오르다 | 대표 : 김민지</p>
+  <p>주소 : 인천 남동구 인하로607 모아프라자 2F</p>
+  <p>카카오톡 채널 : 필라테스, 오르다</p>
+  <p>전화 : 010-2944-2202</p>
+  <p class="copy">COPYRIGHT &copy; All Rights Reserved.</p>
+</footer>
+</div>
+    </div>
+  </body>
+</html>
