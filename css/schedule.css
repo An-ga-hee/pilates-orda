@@ -66,6 +66,69 @@ nav {
   line-height: 1.6;
   letter-spacing: 10px;
 }
+#content {
+  width: 100%;
+  height: 900px;
+  margin: 0 auto;
+}
+#content h1 {
+  text-align: center;
+  padding: 100px 0 50px;
+  letter-spacing: 3px;
+  font-size: 35px;
+  color: #333;
+}
+table,
+th,
+tr,
+td {
+  border: 1px solid #ccc;
+}
+table {
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  padding: 0;
+}
+table th {
+  background-color: #c2ba8f;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.time {
+  background-color: #c2ba8f;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.kim {
+  background-color: rgba(255, 179, 39, 0.733);
+  color: #fff;
+  font-weight: bold;
+}
+.eun {
+  background-color: darkkhaki;
+  color: #fff;
+  font-weight: bold;
+}
+.break {
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: rgba(63, 43, 10, 0.7);
+}
+#content h3 {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: right;
+  padding-top: 20px;
+  font-weight: normal;
+  color: crimson;
+}
 /* footer */
 footer {
   width: 100%;

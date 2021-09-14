@@ -66,25 +66,40 @@ nav {
   line-height: 1.6;
   letter-spacing: 10px;
 }
-/* section1 */
-#section1 {
-  width: 100%;
+/* notice */
+.notice {
+  width: 1000px;
+  background-color: #fff;
+  margin: 0 auto;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  margin-top: 100px;
+}
+.notice li {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+}
+.left {
+  width: 120px;
+  float: left;
+  text-align: center;
 }
 
-.lesson {
-  width: 100%;
-  max-width: 1000px;
-  display: flex;
-  flex-direction: column;
+.right {
+  float: right;
+  padding-right: 50px;
 }
-.lesson li {
-  border: 1px solid #ccc;
+.notice li a:hover {
+  color: rgba(63, 43, 10, 0.7);
 }
 /* footer */
 footer {
   width: 100%;
   height: 250px;
   text-align: center;
+  margin-top: 100px;
 }
 .btmLogo {
   font-family: "Dancing Script";
