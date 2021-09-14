@@ -5,9 +5,13 @@
     <title>Pilates, Orda</title>
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/map.css" />
-  </head>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+  />
+    
   <body>
-    <div id="wrap">
+    <!-- header -->
       <header>
         <h1 class="logo">
           <a href="../index.html">Pilates, Orda</a>
@@ -21,50 +25,61 @@
         </nav>
         <div class="bgTxt">
           <h4>필라테스 오르다, 아시아드점</h4>
-          <h1>MAP</h1>
-          <h1>&</h1>
-          <h1>DIRECTIONS</h1>
+          <h1>MAP<br>&<br>DIRECTIONS</h1>
         </div>
       </header>
-
+      <!-- content -->
       <div id="content">
-        <!-- * 카카오맵 - 지도퍼가기 -->
+        <p class="address">인천 남동구 인하로607 모아프라자 2F</p>
+        <!-- maplink -->
+        <center>
+          <!-- * 카카오맵 - 지도퍼가기 -->
         <!-- 1. 지도 노드 -->
         <div
-          id="daumRoughmapContainer1631529586789"
-          class="root_daum_roughmap root_daum_roughmap_landing"
-        ></div>
-
-        <!--
-2. 설치 스크립트
-* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
--->
-        <script
-          charset="UTF-8"
-          class="daum_roughmap_loader_script"
-          src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"
-        ></script>
-
-        <!-- 3. 실행 스크립트 -->
-        <script charset="UTF-8">
-          new daum.roughmap.Lander({
-            timestamp: "1631529586789",
-            key: "27cr4",
-            mapWidth: "1200",
-            mapHeight: "600",
-          }).render();
-        </script>
+        id="daumRoughmapContainer1631529586789"
+        class="root_daum_roughmap root_daum_roughmap_landing"
+      ></div>
+      </center>
+      <!-- direction -->
+      <div class="direction">
+        <i class="fas fa-phone"></i>
+        <i class="fas fa-car"></i>
       </div>
-<!-- footer -->
-<footer>
-  <h1 class="btmLogo">Pilates, Orda</h1>
-  <p>상호 : 필라테스, 오르다 | 대표 : 김민지</p>
-  <p>주소 : 인천 남동구 인하로607 모아프라자 2F</p>
-  <p>카카오톡 채널 : 필라테스, 오르다</p>
-  <p>전화 : 010-2944-2202</p>
-  <p class="copy">COPYRIGHT &copy; All Rights Reserved.</p>
-</footer>
-</div>
+      <div class="direction2">
+        <div class="call">
+          <p class="direcTxt">방문/상담 가능 시간 10:00 ~ 22:00</p>
+          <p class="number">010-2944-2202</p>
+        </div>
+      <div class="car">
+          <p class="direcTxt">도로명 : 인천 남동구 인하로 607 2F</p>
+          <p class="direcTxt">지번 : 인천 남동구 구월동 1512-2 2F</p>
+      </div>
     </div>
+      <!-- 2. 설치 스크립트
+            * 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다. -->
+      <script
+        charset="UTF-8"
+        class="daum_roughmap_loader_script"
+        src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js">
+      </script>
+      <!-- 3. 실행 스크립트 -->
+      <script charset="UTF-8">
+        new daum.roughmap.Lander({
+          timestamp: "1631529586789",
+          key: "27cr4",
+          mapWidth: "1200",
+          mapHeight: "600",
+        }).render();
+      </script>
+      </div>
+      <!-- footer -->
+      <footer>
+        <h1 class="btmLogo">Pilates, Orda</h1>
+          <p>상호 : 필라테스, 오르다 | 대표 : 김민지</p>
+          <p>주소 : 인천 남동구 인하로607 모아프라자 2F</p>
+          <p>카카오톡 채널 : 필라테스, 오르다</p>
+          <p>전화 : 010-2944-2202</p>
+          <p class="copy">COPYRIGHT &copy; All Rights Reserved.</p>
+      </footer>
   </body>
 </html>

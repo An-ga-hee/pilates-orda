@@ -1,0 +1,235 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+body {
+  background-color: rgba(245, 245, 220, 0.6);
+}
+header {
+  /* position: relative; */
+  width: 100%;
+  height: 400px;
+  background-color: rgba(63, 43, 10, 0.7);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  padding-top: 15px;
+  padding-left: 40px;
+}
+.logo a {
+  font-family: "Dancing Script";
+  font-size: 45px;
+  color: #fff;
+}
+.logo a:hover {
+  color: #3f2b0a;
+  transition: 0.5s;
+}
+nav {
+  /* position: absolute; */
+}
+.gnb {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-top: 30px;
+  padding-right: 60px;
+}
+.gnb li {
+}
+.gnb li a {
+  color: #fff;
+}
+.gnb li:hover a {
+  color: #3f2b0a;
+}
+
+.bgTxt {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+.bgTxt h4 {
+  font-weight: normal;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+.bgTxt h1 {
+  line-height: 1.6;
+  letter-spacing: 10px;
+}
+/* section1 */
+#section1 {
+  width: 100%;
+}
+.front_txt {
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 0;
+  letter-spacing: 5px;
+}
+.front_txt p {
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.front {
+  max-width: 1480px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.front_img {
+  width: 473px;
+}
+.front_img:hover {
+  filter: grayscale(0.7);
+}
+.front_img img {
+  width: 100%;
+}
+
+/* section2 */
+#section2 {
+  width: 100%;
+}
+.lounge_txt {
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 0;
+  letter-spacing: 5px;
+}
+.lounge_txt p {
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.lounge {
+  max-width: 1480px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.lounge_img {
+  width: 350px;
+  height: 350px;
+}
+.lounge_img:hover {
+  filter: grayscale(0.7);
+}
+.lounge_img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* section3 */
+#section3 {
+  width: 100%;
+}
+
+.duet_txt {
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 0;
+  letter-spacing: 5px;
+}
+.duet_txt p {
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.duetroom {
+  max-width: 1480px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.duet_img {
+  width: 720px;
+}
+.duet_img:hover {
+  filter: grayscale(0.7);
+}
+.duet_img img {
+  width: 100%;
+}
+/* section4 */
+#section4 {
+  width: 100%;
+  padding-bottom: 50px;
+}
+.group_txt {
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 0;
+  letter-spacing: 5px;
+}
+.group_txt p {
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.grouproom {
+  max-width: 1480px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.group_img {
+  width: 720px;
+}
+.group_img img {
+  width: 100%;
+}
+.group_img:hover {
+  filter: grayscale(0.7);
+}
+/* footer */
+footer {
+  width: 100%;
+  height: 250px;
+  text-align: center;
+}
+.btmLogo {
+  font-family: "Dancing Script";
+  font-size: 45px;
+  color: #3f2b0a;
+  padding-bottom: 20px;
+}
+footer p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+.copy {
+  padding-top: 20px;
+}
