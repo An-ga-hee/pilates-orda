@@ -60,7 +60,6 @@ header {
 .bgTxt p {
   letter-spacing: 7px;
   font-size: 18px;
-  font-weight: lighter;
 }
 .bgTxt h1 {
   letter-spacing: 10px;
@@ -267,13 +266,13 @@ h4 {
 }
 
 .insta li {
-  width: 355px;
-  height: 355px;
+  width: 350px;
+  height: 350px;
   overflow: hidden;
 }
 .insta_imgbox {
-  width: 355px;
-  height: 355px;
+  width: 350px;
+  height: 350px;
   display: flex;
   justify-content: center;
 }
