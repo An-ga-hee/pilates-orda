@@ -85,7 +85,7 @@ td {
   border: 1px solid #eee;
 }
 table {
-  width: 1000px;
+  max-width: 1000px;
   height: 500px;
   margin: 0 auto;
   text-align: center;
