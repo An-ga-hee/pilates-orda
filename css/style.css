@@ -93,7 +93,7 @@ header {
 #section1 h5 {
   letter-spacing: 10px;
   padding-top: 190px;
-  font-size: 16px;
+  font-size: 20px;
   color: #333;
   font-weight: 400;
 }
@@ -105,10 +105,12 @@ header {
   font-family: "Kaisei Tokumin", serif;
   font-weight: lighter;
   color: #333;
+  font-size: 30px;
 }
 #section1 p {
   letter-spacing: 3px;
   font-weight: 400;
+  font-size: 20px;
 }
 .line {
   border-left: 1px solid #888;
@@ -124,17 +126,17 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 20px;
   margin-bottom: 50px;
 }
 .left {
-  width: 720px;
+  width: 690px;
 }
 .left img {
   width: 100%;
 }
 .right {
-  width: 720px;
+  width: 690px;
 }
 .right img {
   width: 100%;
@@ -161,7 +163,8 @@ header {
 }
 
 .swiper {
-  max-width: 1480px;
+  width: 100%;
+  max-width: 1400px;
   height: 700px;
 }
 
@@ -207,7 +210,7 @@ header {
 }
 .contents {
   width: 100%;
-  max-width: 1480px;
+  max-width: 1400px;
 
   height: 100%;
   display: flex;
@@ -283,13 +286,13 @@ h4 {
 }
 
 .insta li {
-  width: 350px;
-  height: 350px;
+  width: 335px;
+  height: 335px;
   overflow: hidden;
 }
 .insta_imgbox {
-  width: 350px;
-  height: 350px;
+  width: 335px;
+  height: 335px;
   display: flex;
   justify-content: center;
 }
