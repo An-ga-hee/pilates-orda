@@ -15,6 +15,7 @@ header {
   justify-content: space-between;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 .logo {
   padding-top: 15px;
@@ -38,7 +39,6 @@ nav {
   gap: 30px;
   padding-top: 30px;
   padding-right: 60px;
-
 }
 .gnb li {
 }
@@ -51,7 +51,7 @@ nav {
 
 .bgTxt {
   position: absolute;
-  top: 18%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
