@@ -124,7 +124,7 @@ table th {
   color: rgba(63, 43, 10, 0.7);
 }
 #content h3 {
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
   text-align: right;
   padding-top: 20px;
